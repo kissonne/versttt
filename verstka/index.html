@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="img1">
+  <img class="lover" src="images/head.png" alt="">
+  <p class="text1">
+    Создаём для тех, кто ценит свежесть и изящество цветка
+  </p>
+</div>
+
+  <header class="header">
+      
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+          <div>
+              <ul>
+                  <li><a href='#'>КАТАЛОГ</a></li>
+                  <li><a href='#'>ДОСТАВКА И ОПЛАТА</a></li>
+                  <li><a href='#'>О НАС</a></li>
+                  
+                  
+                  <li><a href='#'>FAQ</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="button1">
+        <button class="custom-button" id="myBtn">О нас</button>
+      </div>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img class="okno_foto" src="images/okno.png" alt="">
+          <p class="okno_text">МОЛОДАЯ КОМАНДА РАЗНЫХ ЛЮДЕЙ С ОДИНАКОВЫМИ ЦЕННОСТЯМИ.</p>
+          <p class="okno_text1">Мы считаем, что удовольствие от качества длится дольше, чем удовольствие <br>
+            от низкой цены. И поэтому в создание нашей букетерии мы вложили все, <br>
+            чем располагаем: душу, сердце, время и мечты! Мы готовы обещать вам только то, <br>
+            что можем сделать. А делаем мы только самое качественное, самое интересное <br>
+            и обязательно уникальное. Мы всегда честны со своими клиентами во всем – <br>
+            в нашем каталоге только те букеты, которые вы действительно сможете купить.</p>
+        </div>
+      </div>
+
+
+      
+  </header>
+
+<div class="filtr">
+  <h1 class="katalog">КАТАЛОГ</h1>
+  <h1 class="buketov">БУКЕТОВ</h1>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">ВСЕ</button>
+    <button class="btn" onclick="filterSelection('small')">МАЛЕНЬКИЕ</button>
+    <button class="btn" onclick="filterSelection('sred')">СРЕДНИЕ</button>
+    <button class="btn" onclick="filterSelection('big')">БОЛЬШИЕ</button>
+    
+  </div>
+
+  <div class="container">
+    <div class="filterDiv sred">
+      <div>
+        <img class="img2" src="images/buket1.png" alt="">
+        <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+        <p class="price1">167.000 ₽</p> 
+        <p class="knopi">В КОРЗИНУ</p>
+      </div>
+    </div>
+    <div class="filterDiv small">
+      <img class="img3" src="images/buket2.png" alt="">
+        <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+        <p class="price1">167.000 ₽</p>
+        <p class="knopi">В КОРЗИНУ</p>
+    </div>
+    <div class="filterDiv sred">
+      <img class="img4" src="images/buket3.png" alt="">
+      <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+      <p class="price1">167.000 ₽</p>
+      <p class="knopi">В КОРЗИНУ</p>
+    
+    </div>
+    <div class="filterDiv big">
+      <img class="img4" src="images/buket4.png" alt="">
+        <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+        <p class="price1">167.000 ₽</p>
+        <p class="knopi">В КОРЗИНУ</p>
+    </div>
+    
+    <div class="filterDiv sred">
+      <img class="img6" src="images/buket5.png" alt="">
+      <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+      <p class="price1">167.000 ₽</p>
+      <p class="knopi">В КОРЗИНУ</p>
+    </div>
+    <div class="filterDiv small">
+      <img class="img7" src="images/buket6.png" alt="">
+      <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+      <p class="price1">167.000 ₽</p>
+      <p class="knopi">В КОРЗИНУ</p>
+    </div>
+    <div class="filterDiv big">
+      <img class="img8" src="images/buket7.png" alt="">
+      <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+      <p class="price1">167.000 ₽</p>
+      <p class="knopi">В КОРЗИНУ</p>
+    </div>
+    <div class="filterDiv small">
+      <img class="img9" src="images/buket8.png" alt="">
+      <p class="buk1">ЛУЧШИЙ ДЕНЬ</p>
+      <p class="price1">167.000 ₽</p>
+      <p class="knopi">В КОРЗИНУ</p>
+    </div>
+  
+  </div>
+
+<div class="tabi">
+  <section class="section">
+    <div class="container1">
+      <div class="section__tabs tabs">
+        <div class="tabs__head">
+          <div class="tabs__caption" data-tab="home">ДОСТАВКА И ОПЛАТА</div>
+          <div class="tabs__caption" data-tab="portfolio">ОТЗЫВЫ</div>
+          
+        </div>
+        <div class="tabs__body">
+          <div class="tabs__content" data-tab="home">
+           <p class="sposob">СПОСОБ ОПЛАТЫ:</p>
+            <li>БАНКОВСКОЙ КАРТОЙ ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ</li>
+            <li>НАЛИЧНЫМИ ИЛИ БАНКОВСКОЙ КАРТОЙ ПРИ САМОВЫВОЗЕ</li>
+            <li>НАЛИЧНЫМИ ПРИ ДОСТАВКЕ КУРЬЕРОМ</li>
+            <li>КРИПТОВАЛЮТОЙ ОНЛАЙН</li>
+            <p class="sposob1">СТОИМОСТЬ ДОСТАВКИ:</p>
+            <li><b>БЕСПЛАТНО</b> - ПРИ ЗАКАЗЕ НА СУММУ <span style="color:#43FFD2 ;">ОТ 90 РУБЛЕЙ</span> </p></li>
+            <li><b>10 РУБЛЕЙ</b> - ПРИ ЗАКАЗЕ НА СУММУ <span style="color:#43FFD2 ;">МЕНЕЕ 90 РУБЛЕЙ</span></li>
+            <li>ВОЗМОЖНОСТЬ, СРОКИ И СТОИМОСТЬ ДОСТАВКИ ЗА ПРЕДЕЛЫ МКАД, ДОСТАВКИ В НОЧНОЕ ВРЕМЯ, ПРАЗДНИКИ <span style="color:#43FFD2 ;">ОГОВАРИВАЮТСЯ С МЕНЕДЖЕРОМ</span> </li>
+            <li>ТАК ЖЕ ВЫ МОЖЕТЕ ЗАБРАТЬ ВАШ ЗАКАЗ САМОСТОЯТЕЛЬНО ПО АДРЕСУ: <br>
+             <span style="color:#43FFD2 ;">Г. МОСКВА, УЛ. ТИМИРЯЗЕВА Д. 67, КОМН. 112 ЕЖЕДНЕВНО С 10.00 ДО 21.00</span> </li>
+             <p class="sposob2">УСЛОВИЯ ДОСТАВКИ:</p> 
+             <p>ДОСТАВКА ОСУЩЕСТВЛЯЕТСЯ ПО ГОРОДУ МОСКВА В ПРЕДЕЛАХ МКАД<span style="color:#43FFD2 ;"> В ЛЮБОЙ ДЕНЬ С 09.00 ДО 22.00.</span> ДОСТАВКА В НОЧНОЕ ВРЕМЯ ОСУЩЕСТВЛЯЕТСЯ ПО ДОГОВОРЕННОСТИ С ОПЕРАТОРОМ</p>
+          </div>
+          <div class="tabs__content" data-tab="portfolio">
+            <div class="otziv">
+              <p class="best">Лучшая доставка цветов в городе! Быстро доставили, привезли к нужному времени, а сам букет превзошел все ожидания!</p>
+              <p class="ivan">Иван, 10/10/2021 </p>
+            </div>
+            
+            <div class="otziv">
+              <p class="best">Лучшая доставка цветов в городе! Быстро доставили, привезли к нужному времени, а сам букет превзошел все ожидания!</p>
+              <p class="ivan">Иван, 10/10/2021 </p>
+            </div>
+
+            <div class="otziv">
+              <p class="best">Лучшая доставка цветов в городе! Быстро доставили, привезли к нужному времени, а сам букет превзошел все ожидания!</p>
+              <p class="ivan">Иван, 10/10/2021 </p>
+            </div>
+
+            <div class="otziv">
+              <p class="best">Лучшая доставка цветов в городе! Быстро доставили, привезли к нужному времени, а сам букет превзошел все ожидания!</p>
+              <p class="ivan">Иван, 10/10/2021 </p>
+            </div>
+
+           
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+<div class="container3">
+  <div class="carousel">
+      <div class="carousel-window">
+          <div class="carousel-slides">
+            
+              <div class="carousel-item">
+                  <img src="images/buk1.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                  <img  src="images/buk2.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/buk3.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                  <img  src="images/buk4.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                  <img  src="images/buk5.jpg" alt="">
+              </div>
+          </div>
+      </div>
+      <a href="#" class="carousel-prev">
+          <span class="carousel-prev-icon">&lt;</span>
+      </a>
+      <a href="#" class="carousel-next">
+          <span class="carousel-next-icon">&gt;</span>
+      </a>
+  </div>
+</div>
+
+
+
+
+<div id="faq" >
+  <h1 class="faq1">FAQ</h1>
+  <ul>
+    <li>
+      <input type="checkbox" checked>
+      <i></i>
+      <h2>БУДЕТ ЛИ ЗАКАЗАННЫЙ БУКЕТ В ТОЧНОСТИ СООТВЕТСТВОВАТЬ ЕГО ИЗОБРАЖЕНИЮ НА САЙТЕ?</h2>
+      <p class="bukkk">Букет собирается по индивидуальной матрице букета. Однако возможны случаи, когда нет необходимых цветов либо имеющиеся цветы отличаются от представленных на фото, и с согласования заказчика они могут быть заменены на аналогичные. Либо если флорист считает, что данные изменения не повлекут сильного изменения в образе букета, то самостоятельно может заменить некоторые цветы. И перед отправкой направляется фото заказчику, который утверждает получившийся букет. Каждый цветок отличается от другого, как и каждый букет будет индивидуальным, но в этом и есть его прелесть… в индивидуальности.</p>
+    </li>
+    <li>
+      <input type="checkbox" checked>
+      <i></i>
+      <h2>КАК ДОЛГО СТОЯТ БУКЕТЫ ИЗ СУХОЦВЕТОВ?</h2>
+      <p class="bukkk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quasi, quia provident facere recusandae itaque assumenda fuga veniam dicta earum dolorem architecto facilis nisi pariatur.</p>
+    </li>
+    <li>
+      <input type="checkbox" checked>
+      <i></i>
+      <h2>ДЕЛАЕТЕ ЛИ ВЫ ФОТО ГОТОВОГО БУКЕТА ПЕРЕД ОТПРАВКОЙ?</h2>
+      <p class="bukkk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas placeat assumenda mollitia magni consequatur dolorum, quod nihil distinctio aperiam officia alias! Voluptate dolore ex officiis sit, magnam non a, eligendi pariatur aut, earum dolores tenetur ipsam id illo deleniti. Laudantium deserunt eaque ipsam voluptatum consequuntur voluptatibus sed minima ad accusamus debitis eos similique laboriosam, molestiae? Consequatur neque tempore quis. Eligendi, in ut aspernatur esse nesciunt libero.</p>
+    </li>
+  </ul>
+</div>
+</div> 
+
+
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        new Slider(document.querySelector('.carousel'));
+    });
+</script>
+</body>
+</html>
